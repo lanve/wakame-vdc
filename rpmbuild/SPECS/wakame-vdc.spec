@@ -11,6 +11,10 @@
 %{?build_id:%define release_id %{build_id}}
 %{?repo_uri:%define _vdc_git_uri %{repo_uri}}
 
+# http://forums.fedoraforum.org/showthread.php?t=182293
+# in order to stop building the debuginfo package
+%define debug_package %{nil}
+
 Name: %{oname}
 Version: 15.03
 Release: %{release_id}%{?dist}
