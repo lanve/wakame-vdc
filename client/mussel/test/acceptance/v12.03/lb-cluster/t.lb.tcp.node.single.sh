@@ -18,7 +18,7 @@ protocol="tcp"
 instance_protocol="tcp"
 
 target_instance_num=${target_instance_num:-1}
-repeat_count=5
+repeat_count=${repeat_count:-5}
 
 ## functions
 
