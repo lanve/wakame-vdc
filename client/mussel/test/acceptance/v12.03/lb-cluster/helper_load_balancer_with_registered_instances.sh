@@ -10,7 +10,7 @@
 
 ## variables
 
-sleep_sec=${sleep_sec:-10}
+sleep_sec=${sleep_sec:-15}
 
 ## functions
 
